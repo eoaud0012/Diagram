@@ -23,7 +23,7 @@ def login(driver, login_id, login_psw):
     return driver
 
 # 예약 가능 여부를 체크할 기차의 숫자를 설정할 변수 (변수명 num_trains_to_check), 기본값 2
-def search_train(driver, dpt_stn, arr_stn, dpt_dt, dpt_tm, num_trains_to_check=3, want_reserve=False):
+def search_train(driver, dpt_stn, arr_stn, dpt_dt, dpt_tm, num_trains_to_check=6, want_reserve=False):
     is_booked = False # 예약 완료 되었는지 확인용
     cnt_refresh = 0 # 새로고침 회수 기록
 
@@ -81,9 +81,10 @@ def search_train(driver, dpt_stn, arr_stn, dpt_dt, dpt_tm, num_trains_to_check=3
                     break
 
         if not is_booked:
-            time.sleep(randint(2, 4)) #2~4초 랜덤으로 기다리기
+            time.sleep(randint(0, 1)) #2~4초 랜덤으로 기다리기
 
             # 다시 조회하기
+            
             submit = driver.find_element(By.XPATH, "//input[@value='조회하기']")
             driver.execute_script("arguments[0].click();", submit)
             cnt_refresh += 1
