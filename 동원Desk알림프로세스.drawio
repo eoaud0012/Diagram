@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T08:19:14.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="T7b126u6G5MPyd3-J6tJ" version="21.0.10" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-22T08:27:12.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="gBrJKBKSgn06DDWfCxmt" version="21.0.10" type="github" pages="4">
   <diagram id="CYxEf5SZH4w97EDfuLLY" name="SR단순">
     <mxGraphModel dx="1183" dy="1794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,19 +14,22 @@
           <mxGeometry x="290" y="-230" width="600" height="132" as="geometry" />
         </mxCell>
         <mxCell id="M0eQ1IDOB_HOf2DSMLBI-25" value="요청등록" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#23445d;fillColor=#bac8d3;" vertex="1" parent="M0eQ1IDOB_HOf2DSMLBI-16">
-          <mxGeometry y="22" width="200" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="6nJu7Cn9TYpkHE85FTWk-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#82b366;fillColor=#d5e8d4;fillStyle=solid;gradientColor=#97d077;" vertex="1" parent="M0eQ1IDOB_HOf2DSMLBI-25">
-          <mxGeometry x="89.5" y="78" width="21" height="21" as="geometry" />
+          <mxGeometry y="22" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="M0eQ1IDOB_HOf2DSMLBI-28" value="요청접수" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#23445d;fillColor=#bac8d3;" vertex="1" parent="M0eQ1IDOB_HOf2DSMLBI-16">
-          <mxGeometry x="200" y="22" width="200" height="110" as="geometry" />
+          <mxGeometry x="180" y="22" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="M0eQ1IDOB_HOf2DSMLBI-29" value="요청처리" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#23445d;fillColor=#bac8d3;" vertex="1" parent="M0eQ1IDOB_HOf2DSMLBI-16">
-          <mxGeometry x="400" y="22" width="200" height="110" as="geometry" />
+          <mxGeometry x="370" y="22" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="6nJu7Cn9TYpkHE85FTWk-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#82b366;fillColor=#d5e8d4;fillStyle=solid;gradientColor=#97d077;" vertex="1" parent="M0eQ1IDOB_HOf2DSMLBI-29">
-          <mxGeometry x="89.5" y="36" width="21" height="21" as="geometry" />
+        <mxCell id="Tj8dK4sY7soV5aq9boAc-4" value="" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;startSize=23;" vertex="1" parent="M0eQ1IDOB_HOf2DSMLBI-16">
+          <mxGeometry x="140" y="22" width="30" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="Tj8dK4sY7soV5aq9boAc-5" value="" style="swimlane;whiteSpace=wrap;html=1;strokeColor=#457B9D;fontColor=#1D3557;fillColor=#A8DADC;" vertex="1" parent="M0eQ1IDOB_HOf2DSMLBI-16">
+          <mxGeometry x="330" y="22" width="30" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="6nJu7Cn9TYpkHE85FTWk-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#82b366;fillColor=#d5e8d4;fillStyle=solid;gradientColor=#97d077;" vertex="1" parent="Tj8dK4sY7soV5aq9boAc-5">
+          <mxGeometry x="4.5" y="36" width="21" height="21" as="geometry" />
         </mxCell>
         <mxCell id="6nJu7Cn9TYpkHE85FTWk-3" value="요청자" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#23445d;fillColor=#bac8d3;" vertex="1" parent="g7sWkjGeHu26Rh71iulq-19">
           <mxGeometry x="190" y="-177" width="70" height="26" as="geometry" />
@@ -81,6 +84,9 @@
             <mxPoint x="440" y="-80" as="sourcePoint" />
             <mxPoint x="540" y="-80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6nJu7Cn9TYpkHE85FTWk-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#82b366;fillColor=#d5e8d4;fillStyle=solid;gradientColor=#97d077;" vertex="1" parent="g7sWkjGeHu26Rh71iulq-19">
+          <mxGeometry x="434.5" y="-127.5" width="21" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
