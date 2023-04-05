@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T00:44:18.044Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ZoSe6Fg8aPx8rz3i3B9I" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-05T00:48:49.541Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="tIQGWXLciJqmDSgvQgs8" version="21.1.2" type="github">
   <diagram name="페이지-1" id="oeMr1jxLRIUCTHXcaMcz">
-    <mxGraphModel dx="1671" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -348,7 +348,7 @@
         <mxCell id="uftjSws4iOTrkfGyIKbN-264" value="변경계획" style="swimlane;whiteSpace=wrap;html=1;dashed=1;swimlaneFillColor=default;fontFamily=나눔고딕;" vertex="1" parent="1">
           <mxGeometry x="50" y="2060" width="140" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="uftjSws4iOTrkfGyIKbN-265" value="요청자테스트&amp;nbsp;&lt;br&gt;자동 완료 여부 &lt;br&gt;선택" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-264">
+        <mxCell id="uftjSws4iOTrkfGyIKbN-265" value="요청자테스트&amp;nbsp;&lt;br&gt;자동 완료 선택" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-264">
           <mxGeometry x="20" y="40" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uftjSws4iOTrkfGyIKbN-266" value="예" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-264">
@@ -360,7 +360,7 @@
         <mxCell id="uftjSws4iOTrkfGyIKbN-269" value="변경승인" style="swimlane;whiteSpace=wrap;html=1;dashed=1;startSize=23;fontFamily=나눔고딕;" vertex="1" parent="1">
           <mxGeometry x="190" y="2060" width="140" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="uftjSws4iOTrkfGyIKbN-270" value="요청자테스트&amp;nbsp;&lt;br&gt;자동 완료 여부 &lt;br&gt;최종 선택" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-269">
+        <mxCell id="uftjSws4iOTrkfGyIKbN-270" value="요청자테스트&amp;nbsp;&lt;br&gt;자동 완료&lt;br&gt;최종 선택" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-269">
           <mxGeometry x="20" y="40" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uftjSws4iOTrkfGyIKbN-271" value="아니오" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-269">
@@ -378,7 +378,7 @@
         <mxCell id="uftjSws4iOTrkfGyIKbN-275" value="요청자테스트" style="swimlane;whiteSpace=wrap;html=1;dashed=1;startSize=23;fontFamily=나눔고딕;" vertex="1" parent="1">
           <mxGeometry x="490" y="2060" width="400" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="uftjSws4iOTrkfGyIKbN-276" value="5일 &lt;br&gt;경과 여부&lt;br&gt;&amp;nbsp;확인" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-275">
+        <mxCell id="uftjSws4iOTrkfGyIKbN-276" value="5일 &lt;br&gt;경과&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-275">
           <mxGeometry x="39.94" y="170" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uftjSws4iOTrkfGyIKbN-277" value="요청자테스트&lt;br&gt;자동 완료" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-275">
@@ -387,7 +387,7 @@
         <mxCell id="uftjSws4iOTrkfGyIKbN-278" value="요청자테스트&lt;br&gt;완료" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-275">
           <mxGeometry x="240" y="50" width="85" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="uftjSws4iOTrkfGyIKbN-279" value="요청자 테스트&lt;br&gt;수행 여부 확인" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-275">
+        <mxCell id="uftjSws4iOTrkfGyIKbN-279" value="요청자 테스트&lt;br&gt;수행" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-275">
           <mxGeometry x="39.94" y="40" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uftjSws4iOTrkfGyIKbN-280" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=나눔고딕;" edge="1" parent="uftjSws4iOTrkfGyIKbN-275" source="uftjSws4iOTrkfGyIKbN-279" target="uftjSws4iOTrkfGyIKbN-276">
@@ -414,7 +414,7 @@
             <mxPoint x="800" y="-80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uftjSws4iOTrkfGyIKbN-288" value="요청자 테스트&lt;br&gt;수행 여부 확인" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-275">
+        <mxCell id="uftjSws4iOTrkfGyIKbN-288" value="요청자 테스트&lt;br&gt;수행" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontFamily=나눔고딕;" vertex="1" parent="uftjSws4iOTrkfGyIKbN-275">
           <mxGeometry x="39.940000000000055" y="310" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="uftjSws4iOTrkfGyIKbN-289" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=나눔고딕;" edge="1" parent="uftjSws4iOTrkfGyIKbN-275">
