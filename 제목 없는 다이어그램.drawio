@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-04-05T02:04:39.812Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="eR2ybSLiJdAXZCRXpPJg" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-05T08:13:55.107Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="dcNCnlX4J9BC5K1JXuue" version="21.1.2" type="github">
   <diagram name="페이지-1" id="oeMr1jxLRIUCTHXcaMcz">
-    <mxGraphModel dx="1420" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="uftjSws4iOTrkfGyIKbN-3" value="IT 담당자" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="240" y="190" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="uftjSws4iOTrkfGyIKbN-6" value="현업 담당자" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="uftjSws4iOTrkfGyIKbN-6" value="요청자" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="440" y="190" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uftjSws4iOTrkfGyIKbN-7" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uftjSws4iOTrkfGyIKbN-3" target="uftjSws4iOTrkfGyIKbN-6">
@@ -51,7 +51,7 @@
         <mxCell id="uftjSws4iOTrkfGyIKbN-28" value="납기조정요청" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="340" y="274" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uftjSws4iOTrkfGyIKbN-21" value="현업 담당자" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="uftjSws4iOTrkfGyIKbN-21" value="요청자" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="850" y="314" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="uftjSws4iOTrkfGyIKbN-30" value="납기조정요청" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
@@ -629,6 +629,12 @@
         </mxCell>
         <mxCell id="uftjSws4iOTrkfGyIKbN-389" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="301" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uftjSws4iOTrkfGyIKbN-394" value="승인/반려" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="170" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uftjSws4iOTrkfGyIKbN-395" value="승인/반려" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="272" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
